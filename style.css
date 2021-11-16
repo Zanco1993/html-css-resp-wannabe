@@ -89,6 +89,7 @@ img {
   #lezioni .row
   {
   width: 100%;
+  max-width: 575px;
   background-color: lightyellow;
 }
   #lezioni .row{
@@ -115,6 +116,8 @@ img {
 #steps .row {
   width: 100%;
   margin: 0;
+  max-width: 575px;
+
 }
 
 /* box 3 */
@@ -124,6 +127,7 @@ img {
 #why .row>.third,
 #why .row{
   width: 100%;
+  max-width: 575px;
   margin-top: 30px;
   background-color: lightyellow;
 }
@@ -149,10 +153,14 @@ img {
   #steps .row>.central
    {
     width: 50%;
+    max-width: 1199px;
+
   }
   #steps .row>.right
   {
   width: 100%;
+  max-width: 1199px;
+
 }
 
 .row img{
