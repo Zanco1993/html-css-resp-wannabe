@@ -83,13 +83,17 @@ img {
 /* box 1 */
 @media screen and (max-width: 575px) {
   
+.container{
+  max-width: 575px;
+  width: 100%;
+}
+
   #lezioni .row>.left,
   #lezioni .row>.right,
   #lezioni .row>h1,
   #lezioni .row
   {
   width: 100%;
-  max-width: 575px;
   background-color: lightyellow;
 }
   #lezioni .row{
@@ -116,7 +120,6 @@ img {
 #steps .row {
   width: 100%;
   margin: 0;
-  max-width: 575px;
 
 }
 
@@ -127,7 +130,6 @@ img {
 #why .row>.third,
 #why .row{
   width: 100%;
-  max-width: 575px;
   margin-top: 30px;
   background-color: lightyellow;
 }
@@ -145,21 +147,23 @@ img {
 /* box-2 */
 
 @media screen and (min-width: 576px) and (max-width: 1199px) {
-  .container.grey{
+  .container{
     width: 100%;
+    max-width: 1199px;
+
   }
   
   #steps .row>.left,
   #steps .row>.central
    {
     width: 50%;
-    max-width: 1199px;
+    
 
   }
   #steps .row>.right
   {
   width: 100%;
-  max-width: 1199px;
+ 
 
 }
 
