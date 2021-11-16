@@ -80,7 +80,7 @@ img {
 
 /* ---------------------- mobile ---------------------- */
 
-/* 1 box */
+/* box 1 */
 @media screen and (max-width: 575px) {
   
   #lezioni .row>.left,
@@ -91,22 +91,41 @@ img {
   width: 100%;
   background-color: lightyellow;
 }
-#lezioni .row{
+  #lezioni .row{
   margin-top: 0;
 }
-h1{
-  margin: 0;
+  h1{
+  margin-top: 10px;
+  margin-bottom: 0;
 }
   img{
   margin-top: 20px;
 }
 
-#lezioni h3{
+  h3{
   margin: 0;
   font-size: 20px;
 }
 
-/* 2 box */
+/* box 2 */
 
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right,
+#steps .row {
+  width: 100%;
+  margin: 0;
+}
+
+/* box 3 */
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third,
+#why .row{
+  width: 100%;
+  margin-top: 30px;
+  background-color: lightyellow;
+}
 
 }
